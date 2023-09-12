@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#153751"
+    tools:context=".RequestPage">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:onClick="goBack"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WebView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="388dp"
+        android:layout_height="89dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity='center'
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Choose a location you'd like to request food from. Tap a location to view info, then press Select This Location to confirm."
+        android:textAllCaps="false"
+        android:textColor="#E7E6EF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <WebView
+        android:id="@+id/WebView2"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToReqForm"
+        android:text="@string/goToForm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/WebView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Feed the Need</string>
+    <string name="abt">ABOUT THIS APP</string>
+    <string name="volunteer">VOLUNTEER TRANSPORT</string>
+    <string name="request_food">REQUEST FOOD</string>
+    <string name="reg_provider">REGISTER AS FOOD PROVIDER/UPDATE INFO</string>
+    <string name="back">BACK</string>
+    <string name="goToForm">Select this Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
